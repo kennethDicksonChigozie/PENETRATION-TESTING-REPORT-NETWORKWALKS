@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />  
   <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
   <div align="center">
-<img src="https://img.shields.io/badge/👨🏽‍💻Pentester: Ukwueze%20Uchenna%20Collins-C00000?style=flat-square" />
+<img src="https://img.shields.io/badge/👨🏽‍💻Pentester: Dickson%20Kenneth%20Chigozie-C00000?style=flat-square" />
 </p>
 
 ---
@@ -32,9 +32,9 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
   
 | **Field** | **Detail** |
 |---|---|
-| **Pentester** | **Ukwueze Uchenna Collins** |
+| **Pentester** | **Dickson Kenneth Chigozie** |
 | **Program/Batch** | Networkwalks-B084 |
-| **Date** | 9<sup>th</sup> November, 2026 |
+| **Date** | 10<sup>th</sup> November, 2026 |
 | **Modules completed** | W2-PM1 (Multiple Kali Tools)<br>W2-PM5 (Zenmap Scanning) |
 | **Client/Target** | 1. Networkwalks (secured written permission already)<br>2. My own local LAN Network |
 | **Permission secured from client?** | Yes |
@@ -129,9 +129,12 @@ DNSRecon
 WHOIS was used to obtain publicly available domain registration information and identify the domain’s name servers. The results provided information about the domain registration and hosting infrastructure.
 > **Command used: ```whois networkwalks.com```**
 
-<img width="1920" height="1080" alt="wk2-pm1-result-whois networkwalks1" src="https://github.com/user-attachments/assets/4f0194fa-0b11-4c36-8367-3422c18d6b92" />
+<img width="1917" height="917" alt="whois screenshot 1" src="https://github.com/user-attachments/assets/7b2f8ff1-8f2d-416e-a9b0-293e0d66f453" />
 
-<img width="1920" height="1080" alt="wk2-pm1-result-whois networkwalks2" src="https://github.com/user-attachments/assets/8e63f437-e7f2-42c8-ae97-4df4e4c4c224" />
+<img width="1906" height="912" alt="whois screenshot 2" src="https://github.com/user-attachments/assets/698b2a4d-f30a-453b-9eb5-2952c618c3f6" />
+
+<img width="1917" height="917" alt="whois screenshot 3" src="https://github.com/user-attachments/assets/aa5e633b-e4cf-4e4b-abf6-1d7122efa6b1" />
+
 
 > ⚠️ **Security relevance: Here the name servers point to HostGator, so an attacker instantly learns the hosting provider. Registration dates, and abuse contacts help with social engineering and planning.**
 
@@ -141,7 +144,7 @@ WHOIS was used to obtain publicly available domain registration information and 
 WhatWeb was used to identify and fingerprint technologies used by the website.
 > **Command used: ```whatweb networkwalks.com```**
 
-<img width="1920" height="1080" alt="wk2-pm1-result-whatweb networkwalks" src="https://github.com/user-attachments/assets/ee685813-98bc-41f5-b138-bfd3c9c43728" />
+<img width="1916" height="912" alt="whatweb screenshot" src="https://github.com/user-attachments/assets/16f9f2dd-62b9-4732-9fbc-6bc8ede9b92b" />
 
 > ⚠️ **Security relevance: whatweb exposes the exact software and versions (here Wordpress 7.1.4 and WP Download 
 Manager 3.3.76). An attacker looks these versions up in vulnerability databases to find known 
